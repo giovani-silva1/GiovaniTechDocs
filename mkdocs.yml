@@ -1,0 +1,44 @@
+site_name: GiovaniDev - Desenvolvedor Fullstack
+site_url: https://sitename.example
+
+theme:
+  name: lux
+
+  font:
+    text: Inter
+    code: Fira Code
+
+  features:
+    - navigation.sections
+    - navigation.instant
+    - content.code.annotate
+    - palette.toggle
+
+plugins:
+  - search
+
+extra_css:
+  - 'extra.css'
+
+nav:
+  - 🏠 Home: index.md
+  - 💻 Backend:
+      - ☕ Java:
+          - COLEÇÕES: backend/java/collections.md
+
+
+
+
+  - ⚙ Infra/DevOps:
+      - 🐳 Docker:
+          - INTRO: infra/docker/intro.md
+      - 🛠 Jenkins:
+          - PIPELINES: infra/jenkins/pipelines.md
+
+  - 🌐 Frontend:
+      - 💎 Angular:
+          - BASICO: frontend/angular/basico.md
+
+  - 📖 Documentação:
+       - MKDOCS:
+         - COMANDOS BASICOS: mkdocs/comandos.md
